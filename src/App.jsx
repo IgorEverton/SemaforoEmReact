@@ -1,6 +1,7 @@
 import React from "react"
 import Semaforo from "./componentes/semaforo/Semaforo"
 import Carro from './componentes/carros/Carro'
+import Carteirinha from "./componentes/carteirinha/Carteirinha"
 
 export default function App(){
     
@@ -14,6 +15,7 @@ export default function App(){
         <Carro
         carroProps = {carros}
         />
+        <Carteirinha/>
         </div>
         
     )

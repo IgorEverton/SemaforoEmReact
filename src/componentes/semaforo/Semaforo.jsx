@@ -1,6 +1,4 @@
 import React from "react"
-
-
 import './semaforo.css'
 
 export default function Semaforo(){
